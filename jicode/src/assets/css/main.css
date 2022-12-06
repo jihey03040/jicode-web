@@ -1,0 +1,98 @@
+
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    src: url('../fonts/Roboto-Light.woff2') format('woff2'),*/
+/*    url('../fonts/Roboto-Light.woff') format('woff');*/
+/*    font-weight: 300;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),*/
+/*    url('../fonts/Roboto-Regular.woff') format('woff');*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),*/
+/*    url('../fonts/Roboto-Medium.woff') format('woff');*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'Roboto';*/
+/*    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),*/
+/*    url('../fonts/Roboto-Bold.woff') format('woff');*/
+/*    font-weight: 700;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'NotoSansKR';*/
+/*    src: url('../fonts/NotoSansKR-Light.woff2') format('woff2'),*/
+/*    url('../fonts/NotoSansKR-Light.otf') format('opentype');*/
+/*    font-weight: 300;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'NotoSansKR';*/
+/*    src: url('../fonts/NotoSansKR-Regular.woff2') format('woff2'),*/
+/*    url('../fonts/NotoSansKR-Regular.otf') format('opentype');*/
+/*    font-weight: 400;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'NotoSansKR';*/
+/*    src: url('../fonts/NotoSansKR-Medium.woff2') format('woff2'),*/
+/*    url('../fonts/NotoSansKR-Medium.otf') format('opentype');*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: 'NotoSansKR';*/
+/*    src: url('../fonts/NotoSansKR-Bold.woff2') format('woff2'),*/
+/*    url('../fonts/NotoSansKR-Bold.otf') format('opentype');*/
+/*    font-weight: 700;*/
+/*    font-style: normal;*/
+/*}*/
+
+.modal-cover {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+
+.progress-icon {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
